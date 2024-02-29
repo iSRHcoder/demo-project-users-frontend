@@ -61,6 +61,7 @@ const EditUSser = ({ uId }) => {
             <td>
               <input
                 name="password"
+                type="number"
                 value={user.password}
                 onChange={formHandler}
               />
@@ -82,6 +83,7 @@ const EditUSser = ({ uId }) => {
             <td>
               <input
                 name="mobileNum"
+                type="number"
                 value={user.mobileNum}
                 onChange={formHandler}
               />

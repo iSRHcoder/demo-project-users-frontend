@@ -52,7 +52,7 @@ const UsersForm = () => {
           />
           <TextField
             label="Password"
-            type="password"
+            type="number"
             name="password"
             onChange={formHandler}
           />
@@ -61,7 +61,7 @@ const UsersForm = () => {
         <div>
           <TextField
             label="Mobile No."
-            type="text"
+            type="number"
             name="mobileNum"
             onChange={formHandler}
           />
